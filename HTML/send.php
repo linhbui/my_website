@@ -4,7 +4,7 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 $error = "";
-$errorMessage = 'Sorry your message can not be sent.';
+$errorMessage = 'Sorry your message can not be sent. Please try again later.';
 
 //Validate first
 if(empty($name)||empty($email)||empty($message)) 
@@ -29,7 +29,7 @@ $msg .= "User IP : ".$_SERVER["REMOTE_ADDR"]."\r\n";
 $msg .= "Browser info : ".$_SERVER["HTTP_USER_AGENT"]."\r\n"; 
 $msg .= "User come from : ".$_SERVER["SERVER_NAME"];
 
-$recipient = "ghribbenaissa@gmail.com";// Change the recipient email adress to your adrees  
+$recipient = "mail@linhbui.co";// Change the recipient email adress to your adrees  
 $sujet =  "Sender information";
 $mailheaders = "From: $email\r\nReply-To: $email\r\nReturn-Path: $email\r\n";
 

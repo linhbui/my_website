@@ -455,7 +455,7 @@ nav#mainNav  .active{
 }
 
 #about .secTitle{
-	background:#6ac8c8;
+	background:#f97c39;
 }
 
 
@@ -784,6 +784,21 @@ nav#mainNav  .active{
 
 /*End about section*/
 
+/* Skills group */
+#skills {
+display: inline-block;
+width: auto;
+height: auto;
+overflow: hidden;
+position: relative;
+float: left;
+
+}
+#skills img {
+margin: 0 27px;
+margin-top: 50px;}
+
+/*End skills group /
 
 
 /*Resume section*/
