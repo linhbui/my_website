@@ -261,7 +261,7 @@ $(".loading").textrotator({
 
 jQuery(".tweets").tweet({
   join_text: false,
-  username: "BenaissaGhrib", // Change username here
+  username: "LinhPBui", // Change username here
   modpath: './twitter/',
   avatar_size: false,
   count: 1,

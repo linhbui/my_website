@@ -373,6 +373,12 @@ nav#mainNav  .active{
 	color:#2d2d2d;
 }
 
+.innerTitle h2{
+    font-size: 16px;
+	text-transform: uppercase;
+	color:#1d1d1d;
+}
+
 .innerTitle p{
     font-size: 14px;
 }
@@ -515,8 +521,25 @@ nav#mainNav  .active{
     display: inline-block;
 }
 
-
-.getBtn {
+/* Remember to add .Getbtn */
+/* Commenting out the print/download cv part
+.getBtnL {
+    position: absolute;
+    top: 95%;;
+	left: 43.5%;
+}
+.getBtnR {
+    position: absolute;
+    top: 95%;
+	right: 43.5%;
+}
+.getBtnText {
+    position: absolute;
+    top: 95%;
+	display: inline-block;
+}
+*/
+.followBtnLeft {
     left: 17.2%;
     position: absolute;
     top: 32.5%;
@@ -529,11 +552,11 @@ nav#mainNav  .active{
 }
 
 
-.followBtn .ico, .getBtn .ico{
+.followBtn .ico, .followBtnLeft .ico, .getBtn .ico{
 	display:inline-block;
 }
 
-.followBtn h3, .getBtn h3{
+.followBtn h3, .followBtnLeft h3, .getBtn h3{
 	color:#666666;
 	text-align:center;
 	display:block;
@@ -1628,8 +1651,9 @@ ul#category li a:hover{
 	.testimoniaContainer,#teaser {background-attachment: scroll;background-position:top center !important;background-size: cover;}
 	.teaserTitle{margin-top:350px;}
 	.captions p{font-family: 'robotomedium', Arial,sans-serif;}
-	.getBtn {left: 4.7%;}
+	.followBtnLeft {left: 4.7%;}
 	.followBtn{right:4.7%;}
+	/* remember to add .getBtn */
 	
 	
 	
@@ -1683,9 +1707,9 @@ ul#category li a:hover{
 	.innerTitle h1{font-size:25px;}
 	#loaderInner {margin: -50px 0 0 -55px;}
 	
-	
+	/* remember to add getBtn */
 	.followBtn {right: -14%;}
-	.getBtn {left: -12%;}
+	.followBtnLeft {left: -12%;}
 	.address p{line-height:35px;}
 	
 	
@@ -1761,7 +1785,7 @@ ul#category li a:hover{
 	
 	.userProfile {margin-bottom: 100px;margin-top: 150px;}
 	.imgProfile:before, .imgProfile:after{border:none;}
-	.getBtn {left: 23.2%;top: 107.5%;}
+	.followBtnLeft {left: 23.2%;top: 107.5%;} /* remember to add getBtn */
 	.followBtn {right: 23.2%;top: -50.5%;}
 	
 	
