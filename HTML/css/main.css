@@ -389,10 +389,14 @@ nav#mainNav  .active{
 }
 
 .top{
-	margin-top:70px;
+	margin-top:35px;
 	margin-bottom:70px;
 }
 
+.top70{
+	margin-top:70px;
+	margin-bottom:70px;
+}
 
 .nBottom{
 	margin-bottom:0px;
