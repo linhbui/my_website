@@ -15,8 +15,7 @@ $(document).ready(function(){
 	
 //--------------Initiating Skrollr-----------------//
 
-
-function( $ ) {
+( function( $ ) {
     // Init Skrollr
     var s = skrollr.init({
         render: function(data) {
@@ -24,7 +23,7 @@ function( $ ) {
             //console.log(data.curTop);
         }
     });
-} ( jQuery );
+} )( jQuery );
 	
 //------------------------------------- Navigation setup ------------------------------------------------//
 

@@ -242,7 +242,7 @@ nav#mainNav  .active{
 	color:#ffffff;
 	background:url(../images/sliderImages/parallax.jpg) ;
 	height:717px;
-	text-align:center;
+	text-align: center;
 	background-attachment: fixed;	
 	background-position: center top;
 	background-repeat: repeat-y;
@@ -256,7 +256,6 @@ nav#mainNav  .active{
 
 .teaserTitle {
     margin-top: 350px;
-	
 }
 
 .teaserTitle h1 {
