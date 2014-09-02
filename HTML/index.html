@@ -302,11 +302,11 @@
 								<div class="info">
 								<ul>
 									<li><div class="ico"><i class="icon-mail"></i></div>
-									<p>Email : mail@linhbui.co </p></li>
+									<h3>mail@linhbui.me </h3></li>
 									<li><div class="ico"><i class="icon-phone"></i></div>
-									<p>Tel : + 1 315-294-0296</p></li>
-									<li><div class="ico"><i class="icon-link"></i></div>
-										<p>Website : <a href="#">www.linhbui.me</a></p></li>
+									<h3>+ 1 315-294-0296</h3></li>
+									<li><div class="ico"><i class="icon-globe"></i></div>
+										<h3>www.linhbui.me</h3></li>
 								</ul>
 								</div>
 								<!--End info-->	
@@ -442,13 +442,6 @@
 							</div>
 							<!--End holder 960-->
 							
-							<!--Call to action area-->	
-							<div class="cta">
-								<p>Do you have a project, ideas and you want to get started ?<br>
-									 Feel free to <a href="#contact">get in touch with me</a>.</p>
-							</div>
-							<!--End call to action area-->
-							
 							</section>
 							<!--End resume section-->
 
@@ -540,7 +533,6 @@
 									<!--Inner title-->
 									<div class="innerTitle">
 										<h1> check out my works</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 									</div>
 									<!--End inner title-->
 
@@ -554,9 +546,11 @@
 								<div class="filterNav">
 									<ul id="category" class="filter">
 										<li class="all current"><a href="#">All</a></li>
-										<li class="catWeb"><a href="#">Web Design</a></li>
-										<li class="catGraphic"><a href="#">Graphic Design</a></li>
-										<li class="catMotion"><a class="last" href="#">Motion Graphic</a></li>
+	<!-- catRuby, catJavaScript: categories of work. So when the navigate button is clicked, the works are sorted the right way -->									  
+										<li class="catRuby"><a href="#">Ruby</a></li>
+										<li class="catJavaScript"><a href="#">JavaScript</a></li>
+		<!-- Probably later use			<li class="catGraphic"><a href="#">Graphic Design</a></li>
+										<li class="catMotion"><a class="last" href="#">Motion Graphic</a></li> -->
 									</ul>
 									</div>
 								<!-- End filter nav -->
@@ -569,24 +563,52 @@
 											<ul class="portfolio clearfix ">
 
 
-												<li data-id="id-1" data-type="catWeb" class="item  ">
+												<li data-id="id-1" data-type="catRuby" class="item  ">
 													<div class="browserBar"> 
 														<span class="browserDot"></span>
 														 <span class="browserDot"></span>
 														 <span class="browserDot"></span>
 													 </div>
 													<div class="folioImg">
-													<img src="images/portfolioImages/work1.jpg" alt="" />
+													<a href="https://github.com/linhbui/Scrabble"><img src="images/portfolioImages/work1.jpg" alt="" /></a>
 													</div>
 
 
-												<div class="workDesc"><h3>Project Title Goes Here<br><span>Web Design</span></h3>
-													<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
+												<div class="workDesc"><h3>Scrabble AI<br><span>Ruby</span></h3>
+											<!--		<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div> --> <!-- for larger image of the porfolio-->
 
 
 												</li>
 
-												<li data-id="id-2" data-type="catWeb" class="item ">
+												<li data-id="id-2" data-type="catRuby" class="item ">
+													<div class="browserBar"> 
+														<span class="browserDot"></span>
+														 <span class="browserDot"></span>
+														 <span class="browserDot"></span>
+													 </div>
+													<div class="folioImg">
+													<a href="https://github.com/linhbui/Euler-Uva-CodeAbbey"><img src="images/portfolioImages/work2.jpg" alt="" /></a>
+													</div>
+													<div class="workDesc"><h3>Code Puzzles<br><span>Ruby</span></h3>
+											<!--		<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div> -->
+
+												</li>
+
+												<li data-id="id-3" data-type="catRuby" class="item ">
+													<div class="browserBar"> 
+														<span class="browserDot"></span>
+														 <span class="browserDot"></span>
+														 <span class="browserDot"></span>
+													 </div>
+													<div class="folioImg">
+													<a href="https://github.com/linhbui/Structures-Algorithms"><img src="images/portfolioImages/work3.jpg" alt="" /></a>
+													</div>
+													<div class="workDesc"><h3>Data Structures & Algorithms<br><span>Ruby</span></h3>
+											<!--		<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div> -->
+
+												</li>
+<!-- for further projects
+												<li data-id="id-4" data-type="catJavaScript" class="item ">
 													<div class="browserBar"> 
 														<span class="browserDot"></span>
 														 <span class="browserDot"></span>
@@ -595,40 +617,12 @@
 													<div class="folioImg">
 													<img src="images/portfolioImages/work2.jpg" alt="" />
 													</div>
-													<div class="workDesc"><h3>Project Title Goes Here<br><span>Web Design</span></h3>
-														<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-												</li>
-
-												<li data-id="id-3" data-type="catGraphic" class="item ">
-													<div class="browserBar"> 
-														<span class="browserDot"></span>
-														 <span class="browserDot"></span>
-														 <span class="browserDot"></span>
-													 </div>
-													<div class="folioImg">
-													<img src="images/portfolioImages/work3.jpg" alt="" />
-													</div>
 													<div class="workDesc"><h3>Project Title Goes Here<br><span>Graphic Design</span></h3>
 														<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
 
 												</li>
 
-												<li data-id="id-4" data-type="catGraphic" class="item ">
-													<div class="browserBar"> 
-														<span class="browserDot"></span>
-														 <span class="browserDot"></span>
-														 <span class="browserDot"></span>
-													 </div>
-													<div class="folioImg">
-													<img src="images/portfolioImages/work2.jpg" alt="" />
-													</div>
-													<div class="workDesc"><h3>Project Title Goes Here<br><span>Graphic Design</span></h3>
-														<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
-
-												</li>
-
-												<li data-id="id-5" data-type="catMotion" class="item ">
+												<li data-id="id-5" data-type="catJavaScript" class="item ">
 													<div class="browserBar"> 
 														<span class="browserDot"></span>
 														 <span class="browserDot"></span>
@@ -697,7 +691,7 @@
 													<div class="workDesc"><h3>Project Title Goes Here<br><span>Graphic Design</span></h3>
 														<a class="prev" href="images/portfolioImages/workLarge.jpg"><i class="icon-search"></i></a></div>
 
-													</li>
+													</li> -->
 									</ul>
 									<!--End portfolio-->
 									</div>
@@ -710,22 +704,29 @@
 
 									</div>
 								<!--Holder 960-->
+								
 
 								</section>
 								<!--End portfolio section-->
+								<!--Call to action area-->	
+								<div class="cta">
+									<p>Do you have a project, ideas and you want to get started ?<br>
+										Are you looking for a fun, humble and efficient teammate?<br>
+										 Feel free to <a href="#contact">get in touch with me</a>.</p>
+								</div>
+								<!--End call to action area-->
 								
 								
 								
 						
 				<!--Contact section-->
-				<section id="contact" class="clearfix section">
+				<section id="contact">
 					
 					
 
 					<!--Section title-->
 					<div class="secTitle">
 						<h1>contact</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur selin du adipisicing elit<br> sed do eiusmod. Ut enim ad minim veniam.</p>
 
 					</div>
 					<!--End section title-->

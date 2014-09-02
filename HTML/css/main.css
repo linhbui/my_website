@@ -530,7 +530,7 @@ nav#mainNav  .active{
 
 .getBtn {
     position: absolute;
-    top: 100%;;
+    top: 105%;;
 	left: 43.5%;;
 }
 
@@ -769,6 +769,11 @@ nav#mainNav  .active{
 
 .info a{
 	color:#999999;
+}
+
+.info h3{
+	color: #000;
+	font-size: 15px;
 }
 
 
