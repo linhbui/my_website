@@ -35,7 +35,7 @@ body{
 	font-family:'robotoregular', Arial,sans-serif;
 	color:#999999;
 	overflow-x:hidden;
-	font-size:13px;
+	font-size:14px;
 	
 	
 }
@@ -74,6 +74,7 @@ nav#mainNav li,.teaserTitle h1, .secTitle h1, .innerTitle h1, .subTitle h1, .ski
 
 p{
 	line-height:20px;
+	color: #000000;
 }
 
 
@@ -302,6 +303,7 @@ nav#mainNav  .active{
 
 .captions p {
     font-size: 13px;
+	color: #ffffff;
 }
 
 /*End teaser*/

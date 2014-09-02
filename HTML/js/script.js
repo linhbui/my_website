@@ -13,6 +13,18 @@ jQuery(window).load(function() {
 
 $(document).ready(function(){
 	
+//--------------Initiating Skrollr-----------------//
+
+
+function( $ ) {
+    // Init Skrollr
+    var s = skrollr.init({
+        render: function(data) {
+            //Debugging - Log the current scroll position.
+            //console.log(data.curTop);
+        }
+    });
+} ( jQuery );
 	
 //------------------------------------- Navigation setup ------------------------------------------------//
 
@@ -58,7 +70,6 @@ $("#mainNav ul a,.cta a").click(function(e){
 		
 		
 //------------------------------------- End navigation setup ------------------------------------------------//
-
 
 
 
