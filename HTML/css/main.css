@@ -241,7 +241,8 @@ nav#mainNav  .active{
 	color:#ffffff;
 	background:url(../images/sliderImages/parallax.jpg) ;
 	height:717px;
-	text-align:center;	
+	text-align:center;
+	background-attachment: fixed;	
 	background-position: center top;
 	background-repeat: repeat-y;
 	background-size: cover;
@@ -526,23 +527,22 @@ nav#mainNav  .active{
 }
 
 /* Remember to add .Getbtn */
-/* Commenting out the print/download cv part
-.getBtnL {
+
+.getBtn {
     position: absolute;
-    top: 95%;;
-	left: 43.5%;
+    top: 100%;;
+	left: 43.5%;;
 }
-.getBtnR {
-    position: absolute;
-    top: 95%;
-	right: 43.5%;
-}
+
 .getBtnText {
     position: absolute;
-    top: 95%;
+    top: 130%;
 	display: inline-block;
+	font-size: 14px;
+	color: #666666;
+	font-family: 'robotomedium', Arial,sans-serif;
 }
-*/
+
 .followBtnLeft {
     left: 17.2%;
     position: absolute;
@@ -556,7 +556,7 @@ nav#mainNav  .active{
 }
 
 
-.followBtn .ico, .followBtnLeft .ico, .getBtn .ico{
+.followBtn .ico, .followBtnLeft .ico, .getBtn, .ico{
 	display:inline-block;
 }
 
